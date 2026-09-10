@@ -1,0 +1,428 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 200,
+    "total": 26,
+    "sourceid": "2",
+    "lastupdated": "2026-07-13"
+  },
+  [
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2025",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2024",
+      "value": 0.869003936095877,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2023",
+      "value": 1.56947912217259,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2022",
+      "value": 1.14289772827218,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2021",
+      "value": 0.142882127768859,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2020",
+      "value": 2.04181103155501,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2019",
+      "value": 0.816476672490999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2018",
+      "value": 0.807866877690839,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2017",
+      "value": 1.13277903965367,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2016",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2015",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2014",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2013",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2012",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2011",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2010",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2009",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2008",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2007",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2006",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2005",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2004",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2003",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2002",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2001",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2000",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]

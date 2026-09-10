@@ -1,0 +1,428 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 200,
+    "total": 26,
+    "sourceid": "2",
+    "lastupdated": "2026-07-13"
+  },
+  [
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2025",
+      "value": 4.03848787823294,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2024",
+      "value": 4.59269741059462,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2023",
+      "value": 17.4093394320223,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2022",
+      "value": 23.9769674621994,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2021",
+      "value": 20.7657096918972,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2020",
+      "value": 16.4802362028662,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2019",
+      "value": 18.4017265263275,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2018",
+      "value": 17.4109629066019,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2017",
+      "value": 14.7502693254891,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2016",
+      "value": 13.544446593553,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2015",
+      "value": 13.0071577445967,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2014",
+      "value": 12.8990789262009,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2013",
+      "value": 11.0194652216269,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2012",
+      "value": 14.228314544803,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2011",
+      "value": 10.2065334289725,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2010",
+      "value": 9.5764022790779,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2009",
+      "value": 9.34038992133322,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2008",
+      "value": 10.1324738114759,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2007",
+      "value": 10.2918552057481,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2006",
+      "value": 8.67670695215829,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2005",
+      "value": 7.38118186515537,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2004",
+      "value": 8.65847782987104,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2003",
+      "value": 7.81446493024065,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2002",
+      "value": 21.704682984936,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2001",
+      "value": 20.1249460048222,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "BX.TRF.PWKR.DT.GD.ZS",
+        "value": "Personal remittances, received (% of GDP)"
+      },
+      "country": {
+        "id": "PS",
+        "value": "West Bank and Gaza"
+      },
+      "countryiso3code": "PSE",
+      "date": "2000",
+      "value": 20.0252262968096,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]

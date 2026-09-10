@@ -1,0 +1,428 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 200,
+    "total": 26,
+    "sourceid": "2",
+    "lastupdated": "2026-07-13"
+  },
+  [
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2025",
+      "value": 3.7544428489181,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2024",
+      "value": 3.30071498500033,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2023",
+      "value": 3.1866131800554,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2022",
+      "value": 2.45381174550259,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2021",
+      "value": 2.04245238320844,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2020",
+      "value": -0.195556841918759,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2019",
+      "value": 1.76078023564568,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2018",
+      "value": 3.64245114733689,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2017",
+      "value": 3.81576287489548,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2016",
+      "value": 3.3204465548877,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2015",
+      "value": 1.14735632260047,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2014",
+      "value": 2.10665760321017,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2013",
+      "value": 4.46624729869704,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2012",
+      "value": 3.1684098843342,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2011",
+      "value": 4.14350668765977,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2010",
+      "value": 3.77776673684423,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2009",
+      "value": 3.24074074074075,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2008",
+      "value": 3.96461118871815,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2007",
+      "value": 0.803599788247752,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2006",
+      "value": -1.75444679449394,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2005",
+      "value": 5.66520240193151,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2004",
+      "value": 3.10041210399676,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2003",
+      "value": 1.93442812313498,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2002",
+      "value": 4.59768263263243,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2001",
+      "value": 5.41959971808741,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2000",
+      "value": -1.00701887109655,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]

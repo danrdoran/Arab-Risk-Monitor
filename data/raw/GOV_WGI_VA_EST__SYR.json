@@ -1,0 +1,396 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 200,
+    "total": 24,
+    "sourceid": "3",
+    "lastupdated": "2026-03-18"
+  },
+  [
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2024",
+      "value": -1.84729179999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2023",
+      "value": -1.9152968,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2022",
+      "value": -1.8967024,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2021",
+      "value": -1.89419689999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2020",
+      "value": -1.909584,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2019",
+      "value": -1.94567879999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2018",
+      "value": -1.986877,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2017",
+      "value": -1.98639489999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2016",
+      "value": -1.9798097,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2015",
+      "value": -1.94200509999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2014",
+      "value": -1.92535409999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2013",
+      "value": -2.00666239999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2012",
+      "value": -1.9150146,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2011",
+      "value": -1.7258778,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2010",
+      "value": -1.6395091,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2009",
+      "value": -1.59179499999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2008",
+      "value": -1.6280857,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2007",
+      "value": -1.6775784,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2006",
+      "value": -1.5577482,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2005",
+      "value": -1.4895155,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2004",
+      "value": -1.63866429999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2003",
+      "value": -1.72556209999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2002",
+      "value": -1.66801,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SY",
+        "value": "Syrian Arab Republic"
+      },
+      "countryiso3code": "SYR",
+      "date": "2000",
+      "value": -1.7267111,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]

@@ -1,0 +1,194 @@
+{
+  "method": "ESCWA Arab Risk Monitor Annex 1: min-max normalization, equal weights, two-step aggregation (indicator->theme->pathway). risk = (vulnerability + (1 - resilience)) / 2 is this project's synthesis, not from the paper.",
+  "level_bands": {
+    "very high": 0.8,
+    "high": 0.6,
+    "moderate": 0.4,
+    "low": 0.2,
+    "very low": 0.0
+  },
+  "min_year": 2005,
+  "locf_max_gap_years": 5,
+  "indicators": {
+    "BX.TRF.PWKR.DT.GD.ZS": {
+      "label": "Financial dependence (remittances)",
+      "pathway": "Development",
+      "theme": "Economy",
+      "risk_measure": "Vulnerability",
+      "higher_is_worse": true,
+      "norm_min": 0.0015,
+      "norm_max": 33.3498,
+      "bounds_source": "empirical (panel min/max)"
+    },
+    "DT.ODA.ODAT.GN.ZS": {
+      "label": "Financial dependence (aid)",
+      "pathway": "Development",
+      "theme": "Economy",
+      "risk_measure": "Vulnerability",
+      "higher_is_worse": true,
+      "norm_min": -0.031,
+      "norm_max": 83.6398,
+      "bounds_source": "empirical (panel min/max)"
+    },
+    "ER.H2O.FWST.ZS": {
+      "label": "Water stress",
+      "pathway": "Climate",
+      "theme": "Natural Resources",
+      "risk_measure": "Resilience",
+      "higher_is_worse": true,
+      "norm_min": 0.0,
+      "norm_max": 100.0,
+      "bounds_source": "registry threshold"
+    },
+    "GC.TAX.TOTL.GD.ZS": {
+      "label": "State capacity",
+      "pathway": "Development",
+      "theme": "Economy",
+      "risk_measure": "Resilience",
+      "higher_is_worse": false,
+      "norm_min": 0.0407,
+      "norm_max": 24.6899,
+      "bounds_source": "empirical (panel min/max)"
+    },
+    "GOV_WGI_CC.EST": {
+      "label": "Corruption",
+      "pathway": "Development",
+      "theme": "Institutions",
+      "risk_measure": "Vulnerability",
+      "higher_is_worse": false,
+      "norm_min": -2.5,
+      "norm_max": 2.5,
+      "bounds_source": "registry threshold"
+    },
+    "GOV_WGI_PV.EST": {
+      "label": "Political stability",
+      "pathway": "Conflict",
+      "theme": "Historical Grievances",
+      "risk_measure": "Vulnerability",
+      "higher_is_worse": false,
+      "norm_min": -2.5,
+      "norm_max": 2.5,
+      "bounds_source": "registry threshold"
+    },
+    "GOV_WGI_RL.EST": {
+      "label": "Rule of Law",
+      "pathway": "Development",
+      "theme": "Institutions",
+      "risk_measure": "Resilience",
+      "higher_is_worse": false,
+      "norm_min": -2.5,
+      "norm_max": 2.5,
+      "bounds_source": "registry threshold"
+    },
+    "GOV_WGI_VA.EST": {
+      "label": "Voice and accountability",
+      "pathway": "Conflict",
+      "theme": "Enabling Environment",
+      "risk_measure": "Resilience",
+      "higher_is_worse": false,
+      "norm_min": -2.5,
+      "norm_max": 2.5,
+      "bounds_source": "registry threshold"
+    },
+    "MS.MIL.TOTL.TF.ZS": {
+      "label": "Military size (personnel)",
+      "pathway": "Conflict",
+      "theme": "Enabling Environment",
+      "risk_measure": "Resilience",
+      "higher_is_worse": false,
+      "norm_min": 0.0,
+      "norm_max": 11.7022,
+      "bounds_source": "empirical (panel min/max)"
+    },
+    "MS.MIL.XPND.GD.ZS": {
+      "label": "Military expenditure",
+      "pathway": "Conflict",
+      "theme": "Enabling Environment",
+      "risk_measure": "Resilience",
+      "higher_is_worse": false,
+      "norm_min": 0.4439,
+      "norm_max": 15.4796,
+      "bounds_source": "empirical (panel min/max)"
+    },
+    "NV.AGR.TOTL.ZS": {
+      "label": "Reliance on agriculture",
+      "pathway": "Climate",
+      "theme": "Natural Resources",
+      "risk_measure": "Vulnerability",
+      "higher_is_worse": true,
+      "norm_min": 0.0942,
+      "norm_max": 42.8517,
+      "bounds_source": "empirical (panel min/max)"
+    },
+    "NY.GDP.MKTP.KD.ZG": {
+      "label": "Economic growth",
+      "pathway": "Development",
+      "theme": "Economy",
+      "risk_measure": "Resilience",
+      "higher_is_worse": false,
+      "norm_min": -10.0,
+      "norm_max": 10.0,
+      "bounds_source": "registry threshold"
+    },
+    "NY.GDP.PCAP.CD": {
+      "label": "Economic development",
+      "pathway": "Development",
+      "theme": "Economy",
+      "risk_measure": "Resilience",
+      "higher_is_worse": false,
+      "norm_min": 219.2025,
+      "norm_max": 108470.3788,
+      "bounds_source": "empirical (panel min/max)"
+    },
+    "SH.DYN.MORT": {
+      "label": "Infant mortality",
+      "pathway": "Development",
+      "theme": "Society",
+      "risk_measure": "Vulnerability",
+      "higher_is_worse": true,
+      "norm_min": 4.8,
+      "norm_max": 363.1,
+      "bounds_source": "empirical (panel min/max)"
+    },
+    "SL.UEM.TOTL.ZS": {
+      "label": "Unemployment",
+      "pathway": "Development",
+      "theme": "Society",
+      "risk_measure": "Vulnerability",
+      "higher_is_worse": true,
+      "norm_min": 0.1,
+      "norm_max": 29.77,
+      "bounds_source": "empirical (panel min/max)"
+    },
+    "conflict_neighbor": {
+      "label": "Neighbouring conflict",
+      "pathway": "Conflict",
+      "theme": "Historical Grievances",
+      "risk_measure": "Vulnerability",
+      "higher_is_worse": true,
+      "norm_min": 0.0,
+      "norm_max": 4.0,
+      "bounds_source": "registry threshold"
+    },
+    "conflict_ucdp_battle_deaths": {
+      "label": "Conflict intensity",
+      "pathway": "Conflict",
+      "theme": "Historical Grievances",
+      "risk_measure": "Vulnerability",
+      "higher_is_worse": true,
+      "norm_min": 0.0,
+      "norm_max": 50.0,
+      "bounds_source": "registry threshold"
+    },
+    "forced_displacement": {
+      "label": "Forced displacement",
+      "pathway": "Conflict",
+      "theme": "Enabling Environment",
+      "risk_measure": "Resilience",
+      "higher_is_worse": true,
+      "norm_min": 0.0,
+      "norm_max": 30.0,
+      "bounds_source": "registry threshold"
+    }
+  }
+}

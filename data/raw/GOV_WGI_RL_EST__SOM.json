@@ -1,0 +1,396 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 200,
+    "total": 24,
+    "sourceid": "3",
+    "lastupdated": "2026-03-18"
+  },
+  [
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2024",
+      "value": -2.2054496,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2023",
+      "value": -2.1303739,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2022",
+      "value": -2.2051746,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2021",
+      "value": -2.16817529999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2020",
+      "value": -2.18341659999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2019",
+      "value": -2.27689089999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2018",
+      "value": -2.3047801,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2017",
+      "value": -2.3167845,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2016",
+      "value": -2.2378636,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2015",
+      "value": -2.1954112,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2014",
+      "value": -2.2284291,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2013",
+      "value": -2.3576872,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2012",
+      "value": -2.35479259999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2011",
+      "value": -2.380498,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2010",
+      "value": -2.3849652,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2009",
+      "value": -2.37706949999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2008",
+      "value": -2.4669174,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2007",
+      "value": -2.48707189999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2006",
+      "value": -2.4900112,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2005",
+      "value": -2.34532669999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2004",
+      "value": -2.4854228,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2003",
+      "value": -2.5080384,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2002",
+      "value": -2.50632509999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_RL.EST",
+        "value": "Rule of Law - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2000",
+      "value": -2.32001009999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]

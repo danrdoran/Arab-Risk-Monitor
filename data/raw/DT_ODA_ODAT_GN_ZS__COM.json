@@ -1,0 +1,428 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 200,
+    "total": 26,
+    "sourceid": "2",
+    "lastupdated": "2026-07-13"
+  },
+  [
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2025",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2024",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2023",
+      "value": 11.2905767555958,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2022",
+      "value": 10.8064461621735,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2021",
+      "value": 11.9716282824871,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2020",
+      "value": 10.8458599396935,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2019",
+      "value": 6.20166470448126,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2018",
+      "value": 7.60862947607759,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2017",
+      "value": 6.20976301613207,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2016",
+      "value": 5.27749077390694,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2015",
+      "value": 6.77917327514846,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2014",
+      "value": 6.49419205980213,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2013",
+      "value": 7.27539793900668,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2012",
+      "value": 10.0182960971772,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2011",
+      "value": 5.41410611256007,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2010",
+      "value": 5.23520356329908,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2009",
+      "value": 5.61707119519605,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2008",
+      "value": 4.60049221376763,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2007",
+      "value": 5.65052373614599,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2006",
+      "value": 4.6580801394529,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2005",
+      "value": 3.54006011878554,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2004",
+      "value": 4.1706956191624,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2003",
+      "value": 4.51103209839268,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2002",
+      "value": 6.46506172590656,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2001",
+      "value": 7.40877323567935,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "KM",
+        "value": "Comoros"
+      },
+      "countryiso3code": "COM",
+      "date": "2000",
+      "value": 5.68111052120736,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]

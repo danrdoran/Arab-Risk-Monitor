@@ -1,0 +1,428 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 200,
+    "total": 26,
+    "sourceid": "2",
+    "lastupdated": "2026-07-13"
+  },
+  [
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2025",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2024",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2023",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2022",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2021",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2020",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2019",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2018",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2017",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2016",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2015",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2014",
+      "value": 3.96689083277903,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2013",
+      "value": 4.07952717554633,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2012",
+      "value": 4.57388404478979,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2011",
+      "value": 4.92646180284206,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2010",
+      "value": 4.68555712379286,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2009",
+      "value": 5.65364869262807,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2008",
+      "value": 4.44582924481359,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2007",
+      "value": 4.85072305945547,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2006",
+      "value": 4.30846709527936,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2005",
+      "value": 4.8683170115889,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2004",
+      "value": 5.301366496456,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2003",
+      "value": 6.85455205201499,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2002",
+      "value": 6.8956079503431,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2001",
+      "value": 5.4810146916463,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "MS.MIL.XPND.GD.ZS",
+        "value": "Military expenditure (% of GDP)"
+      },
+      "country": {
+        "id": "YE",
+        "value": "Yemen, Rep."
+      },
+      "countryiso3code": "YEM",
+      "date": "2000",
+      "value": 4.91539236509943,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]

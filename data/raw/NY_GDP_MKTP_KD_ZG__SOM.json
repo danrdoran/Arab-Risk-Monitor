@@ -1,0 +1,428 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 200,
+    "total": 26,
+    "sourceid": "2",
+    "lastupdated": "2026-07-13"
+  },
+  [
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2025",
+      "value": 2.99114404482197,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2024",
+      "value": 4.11139335779471,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2023",
+      "value": 4.17524257571303,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2022",
+      "value": 2.71821202053759,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2021",
+      "value": 3.44719850031242,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2020",
+      "value": -2.76455696202532,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2019",
+      "value": 2.80033312513012,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2018",
+      "value": 2.05431507261069,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2017",
+      "value": 14.7357956045195,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2016",
+      "value": 7.03487260042162,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2015",
+      "value": 10.4621881235147,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2014",
+      "value": 8.97800590574617,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2013",
+      "value": 10.9592986164311,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2012",
+      "value": 6.69435192556698,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2011",
+      "value": 6.69435192567755,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2010",
+      "value": 6.69435192550543,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2009",
+      "value": 6.69435192556188,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2008",
+      "value": 6.69435192582009,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2007",
+      "value": 6.69435192552552,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2006",
+      "value": 6.48637073273908,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2005",
+      "value": 7.1103143113146,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2004",
+      "value": 7.11031431125608,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2003",
+      "value": 7.63026729332455,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2002",
+      "value": 7.63026729331047,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2001",
+      "value": 7.1103143114324,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "NY.GDP.MKTP.KD.ZG",
+        "value": "GDP growth (annual %)"
+      },
+      "country": {
+        "id": "SO",
+        "value": "Somalia, Fed. Rep."
+      },
+      "countryiso3code": "SOM",
+      "date": "2000",
+      "value": 7.11031431133236,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]

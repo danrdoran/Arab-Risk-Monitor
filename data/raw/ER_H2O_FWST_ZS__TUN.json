@@ -1,0 +1,428 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 200,
+    "total": 26,
+    "sourceid": "2",
+    "lastupdated": "2026-07-13"
+  },
+  [
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2025",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2024",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2023",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2022",
+      "value": 98.11339918,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2021",
+      "value": 98.11339918,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2020",
+      "value": 98.11339918,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2019",
+      "value": 96.31059086,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2018",
+      "value": 95.9987812,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2017",
+      "value": 89.53101592,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2016",
+      "value": 94.60934921,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2015",
+      "value": 92.02447757,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2014",
+      "value": 89.43960592,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2013",
+      "value": 86.85473428,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2012",
+      "value": 84.26986263,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2011",
+      "value": 81.68499099,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2010",
+      "value": 79.12043267,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2009",
+      "value": 76.55587436,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2008",
+      "value": 73.99131605,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2007",
+      "value": 73.61044105,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2006",
+      "value": 73.22956606,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2005",
+      "value": 72.84869106,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2004",
+      "value": 72.46781606,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2003",
+      "value": 72.08694107,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2002",
+      "value": 71.70606607,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2001",
+      "value": 71.32519107,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "TN",
+        "value": "Tunisia"
+      },
+      "countryiso3code": "TUN",
+      "date": "2000",
+      "value": 66.01833278,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    }
+  ]
+]

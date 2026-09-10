@@ -1,0 +1,428 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 200,
+    "total": 26,
+    "sourceid": "2",
+    "lastupdated": "2026-07-13"
+  },
+  [
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2025",
+      "value": 10.319,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2024",
+      "value": 10.257,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2023",
+      "value": 10.37,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2022",
+      "value": 10.52,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2021",
+      "value": 11.131,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2020",
+      "value": 11.051,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2019",
+      "value": 10.416,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2018",
+      "value": 10.411,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2017",
+      "value": 10.336,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2016",
+      "value": 10.287,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2015",
+      "value": 10.104,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2014",
+      "value": 10.026,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2013",
+      "value": 9.926,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2012",
+      "value": 9.864,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2011",
+      "value": 9.976,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2010",
+      "value": 10.093,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2009",
+      "value": 10.214,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2008",
+      "value": 9.715,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2007",
+      "value": 9.482,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2006",
+      "value": 9.313,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2005",
+      "value": 9.59,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2004",
+      "value": 9.77,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2003",
+      "value": 9.911,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2002",
+      "value": 10.201,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2001",
+      "value": 10.132,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "SL.UEM.TOTL.ZS",
+        "value": "Unemployment, total (% of total labor force) (modeled ILO estimate)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2000",
+      "value": 10.03,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]

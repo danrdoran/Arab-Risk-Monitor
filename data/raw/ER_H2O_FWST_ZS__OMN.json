@@ -1,0 +1,428 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 200,
+    "total": 26,
+    "sourceid": "2",
+    "lastupdated": "2026-07-13"
+  },
+  [
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2025",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2024",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2023",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2022",
+      "value": 116.7142857,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2021",
+      "value": 116.7142857,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2020",
+      "value": 116.7142857,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2019",
+      "value": 116.7142857,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2018",
+      "value": 116.7142857,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2017",
+      "value": 116.7142857,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2016",
+      "value": 116.7142857,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2015",
+      "value": 116.7142857,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2014",
+      "value": 116.7142857,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2013",
+      "value": 116.7142857,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2012",
+      "value": 113.5142857,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2011",
+      "value": 110.3142857,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2010",
+      "value": 107.1142857,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2009",
+      "value": 103.9142857,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2008",
+      "value": 100.7142857,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2007",
+      "value": 97.51428571,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2006",
+      "value": 94.31428571,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2005",
+      "value": 91.11428571,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2004",
+      "value": 87.91428571,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2003",
+      "value": 84.71428571,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2002",
+      "value": 89.75,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2001",
+      "value": 90.79220779,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "OM",
+        "value": "Oman"
+      },
+      "countryiso3code": "OMN",
+      "date": "2000",
+      "value": 92.85714286,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    }
+  ]
+]

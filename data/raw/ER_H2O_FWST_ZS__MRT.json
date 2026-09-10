@@ -1,0 +1,428 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 200,
+    "total": 26,
+    "sourceid": "2",
+    "lastupdated": "2026-07-13"
+  },
+  [
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2025",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2024",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2023",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2022",
+      "value": 13.24621733,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2021",
+      "value": 13.24621733,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2020",
+      "value": 13.24621733,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2019",
+      "value": 13.24621733,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2018",
+      "value": 13.24621733,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2017",
+      "value": 13.24621733,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2016",
+      "value": 13.24621733,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2015",
+      "value": 13.24621733,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2014",
+      "value": 13.24621733,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2013",
+      "value": 13.24621733,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2012",
+      "value": 13.24621733,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2011",
+      "value": 13.24621733,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2010",
+      "value": 13.24621733,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2009",
+      "value": 13.24621733,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2008",
+      "value": 13.24621733,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2007",
+      "value": 13.24621733,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2006",
+      "value": 13.24621733,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2005",
+      "value": 13.24621733,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2004",
+      "value": 13.19512674,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2003",
+      "value": 13.82442523,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2002",
+      "value": 14.45372372,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2001",
+      "value": 15.0830222,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2000",
+      "value": 15.71232069,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    }
+  ]
+]

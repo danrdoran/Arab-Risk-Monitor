@@ -1,0 +1,428 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 200,
+    "total": 26,
+    "sourceid": "2",
+    "lastupdated": "2026-07-13"
+  },
+  [
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2025",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2024",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2023",
+      "value": 3.46775963653224,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2022",
+      "value": 3.05802244254419,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2021",
+      "value": 11.6211882876443,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2020",
+      "value": 9.19641021192227,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2019",
+      "value": 5.00293087327998,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2018",
+      "value": 3.17009319843308,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2017",
+      "value": 2.17603929226557,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2016",
+      "value": 1.93728569441748,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2015",
+      "value": 1.91776873033635,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2014",
+      "value": 1.8009130245808,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2013",
+      "value": 3.74734779519329,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2012",
+      "value": 3.84494436100468,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2011",
+      "value": 3.40063890335216,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2010",
+      "value": 3.66568582850374,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2009",
+      "value": 4.69668447140859,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2008",
+      "value": 4.15145547489334,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2007",
+      "value": 3.70816746119964,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2006",
+      "value": 4.73628616317176,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2005",
+      "value": 5.39679909255987,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2004",
+      "value": 3.89520661712666,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2003",
+      "value": 3.02755363772427,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2002",
+      "value": 1.75696490964984,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2001",
+      "value": 1.27060641542063,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "DT.ODA.ODAT.GN.ZS",
+        "value": "Net ODA received (% of GNI)"
+      },
+      "country": {
+        "id": "SD",
+        "value": "Sudan"
+      },
+      "countryiso3code": "SDN",
+      "date": "2000",
+      "value": 1.93541900649616,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]

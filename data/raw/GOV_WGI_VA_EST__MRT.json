@@ -1,0 +1,396 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 200,
+    "total": 24,
+    "sourceid": "3",
+    "lastupdated": "2026-03-18"
+  },
+  [
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2024",
+      "value": -0.925315,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2023",
+      "value": -0.838849299999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2022",
+      "value": -0.8832882,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2021",
+      "value": -0.894332599999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2020",
+      "value": -0.798863299999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2019",
+      "value": -0.8727345,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2018",
+      "value": -0.938720599999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2017",
+      "value": -0.971436699999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2016",
+      "value": -0.9229242,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2015",
+      "value": -0.922540199999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2014",
+      "value": -0.917447599999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2013",
+      "value": -0.943839,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2012",
+      "value": -0.8761489,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2011",
+      "value": -0.6639976,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2010",
+      "value": -0.6984326,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2009",
+      "value": -0.912845399999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2008",
+      "value": -0.825060799999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2007",
+      "value": -0.4779401,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2006",
+      "value": -0.7122584,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2005",
+      "value": -0.931584899999999,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2004",
+      "value": -1.1473715,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2003",
+      "value": -0.832928,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2002",
+      "value": -0.8362221,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    },
+    {
+      "indicator": {
+        "id": "GOV_WGI_VA.EST",
+        "value": "Voice and Accountability - Governance estimate (approx. -2.5 to +2.5)"
+      },
+      "country": {
+        "id": "MR",
+        "value": "Mauritania"
+      },
+      "countryiso3code": "MRT",
+      "date": "2000",
+      "value": -1.0389131,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 1
+    }
+  ]
+]

@@ -1,0 +1,428 @@
+[
+  {
+    "page": 1,
+    "pages": 1,
+    "per_page": 200,
+    "total": 26,
+    "sourceid": "2",
+    "lastupdated": "2026-07-13"
+  },
+  [
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2025",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2024",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2023",
+      "value": null,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2022",
+      "value": 431.0344828,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2021",
+      "value": 431.0344828,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2020",
+      "value": 431.0344828,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2019",
+      "value": 431.0344828,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2018",
+      "value": 431.0344828,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2017",
+      "value": 431.0344828,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2016",
+      "value": 432.4137931,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2015",
+      "value": 431.0344828,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2014",
+      "value": 434.6551724,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2013",
+      "value": 431.3793103,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2012",
+      "value": 424.2241379,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2011",
+      "value": 417.0689655,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2010",
+      "value": 409.9137931,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2009",
+      "value": 402.7586207,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2008",
+      "value": 395.6034483,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2007",
+      "value": 388.4482759,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2006",
+      "value": 381.2931034,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2005",
+      "value": 374.137931,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2004",
+      "value": 361.3448276,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2003",
+      "value": 341.6551724,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2002",
+      "value": 321.9655172,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2001",
+      "value": 300.8965517,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    },
+    {
+      "indicator": {
+        "id": "ER.H2O.FWST.ZS",
+        "value": "Level of water stress: freshwater withdrawal as a proportion of available freshwater resources"
+      },
+      "country": {
+        "id": "QA",
+        "value": "Qatar"
+      },
+      "countryiso3code": "QAT",
+      "date": "2000",
+      "value": 282.5862069,
+      "unit": "",
+      "obs_status": "",
+      "decimal": 2
+    }
+  ]
+]

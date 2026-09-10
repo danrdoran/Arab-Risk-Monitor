@@ -1,0 +1,53 @@
+{
+  "documents": [
+    {
+      "doc_id": "pathways-for-peace",
+      "title": "Pathways for Peace: Inclusive Approaches to Preventing Violent Conflict",
+      "short_title": "Pathways for Peace",
+      "authors": "United Nations; World Bank",
+      "year": 2018,
+      "publisher": "World Bank, Washington, DC",
+      "url": "https://openknowledge.worldbank.org/handle/10986/28337",
+      "role": "prevention-evidence",
+      "filename": "pathways-for-peace-2018.pdf",
+      "chunk_count": 1105
+    },
+    {
+      "doc_id": "arm-conceptual-framework",
+      "title": "Arab Risk Monitor: A Conceptual Framework",
+      "short_title": "ARM \u2014 Conceptual Framework",
+      "authors": "UN ESCWA",
+      "year": 2023,
+      "publisher": "United Nations, Beirut (E/ESCWA/CL6.GCP/2023/TP.2)",
+      "url": "https://www.unescwa.org/publications/arab-risk-monitor-conceptual-framework",
+      "role": "framework",
+      "filename": "arab-risk-monitor-conceptual-framework-english.pdf",
+      "chunk_count": 56
+    },
+    {
+      "doc_id": "arm-drivers-of-conflict",
+      "title": "Arab Risk Monitor: Quantifying the Drivers of Risk of Conflict, version 1.0",
+      "short_title": "ARM \u2014 Drivers of Conflict",
+      "authors": "UN ESCWA",
+      "year": 2023,
+      "publisher": "United Nations, Beirut (E/ESCWA/CL6.GCP/2023/TP.1)",
+      "url": "https://www.unescwa.org/publications/arab-risk-monitor-quantifying-drivers-risk-conflict",
+      "role": "framework",
+      "filename": "arab-risk-monitor-drivers-conflict-english.pdf",
+      "chunk_count": 143
+    },
+    {
+      "doc_id": "arm-vulnerability-resilience",
+      "title": "Arab Risk Monitor: Assessing Vulnerability and Resilience in the Region",
+      "short_title": "ARM \u2014 Vulnerability & Resilience",
+      "authors": "UN ESCWA",
+      "year": 2023,
+      "publisher": "United Nations, Beirut (E/ESCWA/CL6.GCP/2023/TP.5)",
+      "url": "https://www.unescwa.org/publications/arab-risk-monitor-assessing-vulnerability-resilience-region",
+      "role": "framework",
+      "filename": "arab-risk-monitor-assessing-vulnerability-resilience-region-english.pdf",
+      "chunk_count": 112
+    }
+  ],
+  "total_chunks": 1416
+}

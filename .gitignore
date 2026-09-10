@@ -1,0 +1,14 @@
+.env
+__pycache__/
+*.pyc
+.venv/
+venv/
+node_modules/
+.DS_Store
+
+# secondary local clone used for manual testing
+ARM/
+
+# local app database (conversations, brief)
+data/app.db
+data/app.db-*

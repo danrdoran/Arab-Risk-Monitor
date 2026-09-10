@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Arab Risk Monitor · Conflict-Prevention Advisor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/static/styles.css" />
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+</head>
+<body>
+<div class="app">
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="mark">ARM</div>
+      <div>
+        <h1 data-i18n="app.title">Arab Risk Monitor</h1>
+        <p data-i18n="app.subtitle">Conflict-prevention policy guidance for the 22 Arab States</p>
+      </div>
+    </div>
+
+    <nav class="nav" id="nav">
+      <button data-tab="advisor" class="active" data-i18n="nav.advisor">Advisor</button>
+      <button data-tab="risk" data-i18n="nav.risk">Risk profile</button>
+      <button data-tab="explore" data-i18n="nav.explore">Explore data</button>
+      <button data-tab="graph" data-i18n="nav.graph">Knowledge graph</button>
+      <button data-tab="methodology" data-i18n="nav.methodology">Methodology</button>
+    </nav>
+
+    <div class="statuses">
+      <div class="health"><span class="dot" id="health-dot"></span><span id="health-text" data-i18n="health.checking">checking…</span></div>
+      <div class="langpick" id="langpick">
+        <button data-lang="en" class="active">EN</button>
+        <button data-lang="fr">FR</button>
+        <button data-lang="ar">ع</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ---------------------------------------------------------- advisor -->
+  <section class="panel active" id="tab-advisor">
+    <div class="advisor">
+
+      <aside class="history" id="history">
+        <div class="history-head">
+          <button class="icon-btn" id="history-toggle" title="Conversations">☰</button>
+          <span data-i18n="history.title">Conversations</span>
+          <button class="ghost-btn" id="new-conv" data-i18n="history.new">New</button>
+        </div>
+        <div class="history-list scroll" id="history-list"></div>
+      </aside>
+
+      <div class="chat-col">
+        <div class="messages scroll" id="messages"></div>
+        <div class="composer">
+          <div class="chips" id="chips"></div>
+          <div class="inputrow">
+            <textarea id="chat-input" rows="1" data-i18n-attr="placeholder" data-i18n="advisor.placeholder"
+              placeholder="Ask for conflict-prevention guidance…"></textarea>
+            <button class="send" id="chat-send" data-i18n="advisor.send">Ask</button>
+          </div>
+          <p class="disclaimer" data-i18n="advisor.disclaimer"></p>
+        </div>
+      </div>
+
+      <aside class="rail">
+        <div class="rail-head">
+          <div class="rail-tabs" id="rail-tabs">
+            <button data-mode="sources" class="active" data-i18n="advisor.rail.sources">Sources</button>
+            <button data-mode="brief" data-i18n="advisor.rail.brief">Brief</button>
+          </div>
+        </div>
+        <div class="rail-body scroll" id="rail-body">
+          <p class="rail-empty" data-i18n="advisor.rail.empty">Ask a question to see the passages, data points and knowledge-graph links behind the answer.</p>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ------------------------------------------------------- risk profile -->
+  <section class="panel" id="tab-risk">
+    <div class="risk">
+      <aside class="scroll">
+        <div class="field">
+          <label data-i18n="risk.country">Country</label>
+          <select id="risk-country"></select>
+        </div>
+        <div class="field">
+          <label data-i18n="risk.year">Year</label>
+          <input type="range" id="risk-year" min="2005" max="2024" step="1" value="2023" />
+          <div class="rangeval" id="risk-year-val">2023</div>
+        </div>
+        <div class="field">
+          <label data-i18n="risk.rank_by">Rank countries by</label>
+          <select id="risk-rankdim">
+            <option value="risk" data-i18n="risk.dim.risk">Risk</option>
+            <option value="vulnerability" data-i18n="risk.dim.vulnerability">Vulnerability</option>
+            <option value="resilience" data-i18n="risk.dim.resilience">Resilience</option>
+          </select>
+          <select id="risk-rankpathway">
+            <option value="Overall">Overall</option>
+            <option value="Conflict">Conflict</option>
+            <option value="Climate">Climate</option>
+            <option value="Development">Development</option>
+          </select>
+        </div>
+        <p class="meta" id="risk-method" data-i18n="risk.method_note"></p>
+      </aside>
+      <main class="scroll">
+        <div class="risk-grid">
+          <div class="card pad">
+            <h3 id="risk-profile-title" class="cardh"></h3>
+            <div id="risk-levels"></div>
+            <canvas id="risk-radar" height="150"></canvas>
+          </div>
+          <div class="card pad">
+            <h3 class="cardh" data-i18n="risk.trend_title">Score trend</h3>
+            <canvas id="risk-trend" height="150"></canvas>
+          </div>
+        </div>
+        <div class="card pad">
+          <h3 class="cardh" data-i18n="risk.scatter_title">The region: vulnerability vs. resilience</h3>
+          <canvas id="risk-scatter" height="120"></canvas>
+        </div>
+        <div class="card">
+          <table class="data">
+            <thead><tr>
+              <th data-i18n="risk.col.rank">#</th>
+              <th data-i18n="explore.col.country">Country</th>
+              <th data-i18n="risk.col.value">Score</th>
+              <th data-i18n="risk.col.level">Level</th>
+              <th data-i18n="risk.col.coverage">Indicators</th>
+            </tr></thead>
+            <tbody id="risk-table"></tbody>
+          </table>
+        </div>
+      </main>
+    </div>
+  </section>
+
+  <!-- ---------------------------------------------------------- explore -->
+  <section class="panel" id="tab-explore">
+    <div class="explore">
+      <aside class="scroll">
+        <div class="field">
+          <label data-i18n="explore.indicator">Indicator</label>
+          <select id="sel-indicator"></select>
+          <p class="meta" id="indicator-meta"></p>
+        </div>
+        <div class="field">
+          <label data-i18n="explore.countries">Countries</label>
+          <div class="checklist scroll" id="country-list"></div>
+        </div>
+      </aside>
+      <main class="scroll">
+        <div class="card pad"><canvas id="explore-chart" height="96"></canvas></div>
+        <div class="card">
+          <table class="data">
+            <thead><tr>
+              <th data-i18n="explore.col.country">Country</th>
+              <th data-i18n="explore.col.year">Year</th>
+              <th data-i18n="explore.col.value">Value</th>
+              <th data-i18n="explore.col.source">Source</th>
+            </tr></thead>
+            <tbody id="explore-table"></tbody>
+          </table>
+        </div>
+      </main>
+    </div>
+  </section>
+
+  <!-- ------------------------------------------------------- knowledge graph -->
+  <section class="panel" id="tab-graph">
+    <div class="graphtab">
+      <div class="graphwrap">
+        <svg id="graph-svg"></svg>
+        <div class="graph-controls">
+          <input id="graph-search" data-i18n-attr="placeholder" data-i18n="graph.search"
+            placeholder="Focus the graph on a topic…" autocomplete="off" />
+        </div>
+        <div class="legend" id="graph-legend"></div>
+      </div>
+      <aside class="inspector scroll" id="graph-inspector">
+        <p class="rail-empty" data-i18n="graph.hint">Click a node to see how it connects risk factors, policy levers and indicators — with the passage in the report that supports it.</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- ---------------------------------------------------------- methodology -->
+  <section class="panel" id="tab-methodology">
+    <div class="doc scroll"><div class="doc-inner" id="doc-inner"></div></div>
+  </section>
+
+</div>
+
+<div class="modal-backdrop" id="modal-backdrop"><div class="modal scroll" id="modal"></div></div>
+
+<script src="/static/i18n.js"></script>
+<script src="/static/graph.js"></script>
+<script src="/static/risk.js"></script>
+<script src="/static/app.js"></script>
+</body>
+</html>
