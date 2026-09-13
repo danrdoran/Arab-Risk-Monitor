@@ -51,11 +51,6 @@ citation in the source papers.
         └────────────────────┘ └──────────────┘ └────────────────┘
 ```
 
-The three **MCP servers** in [`mcp_servers/`](mcp_servers/) are standalone —
-run any of them with `python -m mcp_servers.arm_data_server` and point the MCP Inspector at it. The FastAPI app launches all three at
-startup and routes subagent tool calls through them. Set `ARM_MCP=0` to run
-the identical tools in-process instead.
-
 ## Quick start
 
 Requires Python 3.10+.
