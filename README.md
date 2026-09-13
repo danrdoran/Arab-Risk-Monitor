@@ -26,7 +26,7 @@ citation in the source papers.
 |---|---|
 | **Advisor** | Natural-language chat. A lead agent delegates to two specialist subagents (over MCP) and synthesises a single cited answer in your language. Conversations are saved; pin any passage, data point or graph node to a **Brief** and export it as Markdown. |
 | **Risk profile** | Composite vulnerability / resilience / risk scores per country and pathway (ESCWA Annex 1 method), with regional ranking, a vulnerability×resilience scatter, and score trends. |
-| **Explore data** | Direct browse of the 20 live indicators × 22 countries, with a provenance panel. |
+| **Explore data** | Direct browse of 20 indicators × 22 countries, with a provenance panel. |
 | **Knowledge graph** | An interactive graph linking risk factors → policy levers → indicators → the pages of the papers that support each link. |
 | **Methodology** | How it's built and the source documents. |
 
