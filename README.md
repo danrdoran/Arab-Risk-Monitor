@@ -11,7 +11,7 @@ The advisor is grounded in two bodies of work:
   *preventing* violent conflict: actors, institutions and structural factors;
   the four arenas of contestation; sustained, inclusive and targeted
   prevention.
-- **ESCWA's [Arab Risk Monitor](https://www.unescwa.org/)** three-paper series
+- **ESCWA's [Arab Risk Monitor](https://www.unescwa.org/publications/arab-risk-monitor-conceptual-framework)** three-paper series
   — the regional risk taxonomy (vulnerability vs. resilience across the
   Conflict, Climate and Development pathways), the indicator dataset, and the
   Annex 1 scoring methodology.
