@@ -4,6 +4,8 @@ __pycache__/
 .venv/
 venv/
 node_modules/
+.pytest_cache/
+test-results/
 .DS_Store
 
 # secondary local clone used for manual testing

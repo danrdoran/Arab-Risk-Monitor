@@ -183,6 +183,11 @@ def search(query: str, k: int = 5, doc_id: str | None = None) -> list[dict]:
     return _store().search(query, k=k, doc_id=doc_id)
 
 
+def search_offline(query: str, k: int = 5, doc_id: str | None = None) -> list[dict]:
+    """Public paper search never incurs an embedding API request."""
+    return _store()._tfidf_search(query, k, doc_id)
+
+
 def get_section(doc_id: str, page: int, radius: int = 1) -> list[dict]:
     return _store().get_section(doc_id, page, radius=radius)
 

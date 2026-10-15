@@ -4,6 +4,25 @@ Ask, in plain English, French or Arabic, how to reduce the risk of violent
 conflict in any of the 22 League of Arab States countries — and get back
 **cited, evidence-based policy guidance**.
 
+## Access the app
+
+**Live demo: not published yet.** This branch includes everything needed to
+deploy a public demo; pushing it to GitHub does not start a hosted server.
+
+- **Try it on your computer:** follow [Quick start](#quick-start), then open
+  **http://localhost:8420**. This address works only on the computer running
+  the server.
+- **Publish a demo for visitors:** follow [Deploy on Render](#deploy-on-render).
+  Render supplies the public HTTPS address; visitors only need a browser.
+  They do not need Python, a GitHub account, or their own API key.
+
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/danrdoran/Arab-Risk-Monitor/tree/feat/public-demo-browser-history)
+
+The button creates your own Render deployment and requires a Render account.
+It is **not** a link to an already-running app. After a successful deployment,
+replace the "Live demo: not published yet" notice above with the actual HTTPS
+link and add that same link to the repository's **About → Website** field.
+
 The advisor is grounded in two bodies of work:
 
 - **[Pathways for Peace: Inclusive Approaches to Preventing Violent Conflict](https://openknowledge.worldbank.org/handle/10986/28337)**
@@ -24,7 +43,7 @@ citation in the source papers.
 
 | Tab | What it does |
 |---|---|
-| **Advisor** | Natural-language chat. A lead agent delegates to two specialist subagents (over MCP) and synthesises a single cited answer in your language. Conversations are saved; pin any passage, data point or graph node to a **Brief** and export it as Markdown. |
+| **Advisor** | Natural-language chat. A lead agent delegates to two specialists and synthesises a cited answer in your language. Conversations and pinned **Briefs** are saved in your browser; export either as Markdown. Live chat allows 10 submitted questions per network IP per rolling hour by default. |
 | **Risk profile** | Composite vulnerability / resilience / risk scores per country and pathway (ESCWA Annex 1 method), with regional ranking, a vulnerability×resilience scatter, and score trends. |
 | **Explore data** | Direct browse of 20 indicators × 22 countries, with a provenance panel. |
 | **Knowledge graph** | An interactive graph linking risk factors → policy levers → indicators → the pages of the papers that support each link. |
@@ -53,39 +72,195 @@ citation in the source papers.
 
 ## Quick start
 
-Requires Python 3.10+.
+Use **Python 3.12** (also selected by `.python-version`). The repository
+already contains prepared data, scores, paper passages and the knowledge
+graph; you do not need to rebuild them to try the app.
 
 ```bash
-git clone --branch main https://github.com/danrdoran/Arab-Risk-Monitor.git
+git clone --branch feat/public-demo-browser-history https://github.com/danrdoran/Arab-Risk-Monitor.git
 cd Arab-Risk-Monitor
 
 # Create and activate virtual environment
-uv venv --python 3.12
+python3.12 -m venv .venv
 source .venv/bin/activate
 
 # Install dependencies
-uv pip install --python .venv/bin/python -r requirements.txt
+python -m pip install -r requirements.txt
 
-cp .env.example .env          # add OPENAI_API_KEY (only needed for the Advisor tab)
+cp .env.example .env
+# Optional: set OPENAI_API_KEY in .env to enable live Advisor answers.
 
-# Build the data artifacts (safe to re-run; no API key needed):
-python etl/build_dataset.py --refresh   # fetch every source + merge -> data/processed/indicators.csv
-python etl/build_scores.py              # composite scores           -> data/processed/scores.csv
-python etl/extract_papers.py            # paper corpus               -> data/papers/
-python etl/build_graph.py               # knowledge graph            -> data/graph/
-
-# Optional (needs OPENAI_API_KEY): semantic paper retrieval
-python etl/embed_papers.py              # -> data/papers/embeddings.npz  (then ARM_RETRIEVER=embeddings)
-
-uvicorn backend.app:app --reload --port 8420
+python -m uvicorn backend.app:app --reload --port 8420 --no-proxy-headers
 ```
+
+On Windows PowerShell, create the environment with
+`py -3.12 -m venv .venv`, activate it with
+`.\.venv\Scripts\Activate.ps1`, and copy the example environment file with
+`Copy-Item .env.example .env`. The installation and launch commands are the same.
 
 Open **http://localhost:8420**.
 
-- **Risk profile**, **Explore data** and **Knowledge graph** work immediately,
-  no OpenAI key.
-- **Advisor** needs `OPENAI_API_KEY` in `.env`. Models and the retriever are
-  configurable (`ARM_LEAD_MODEL`, `ARM_SUBAGENT_MODEL`, `ARM_RETRIEVER`).
+- **Risk profile**, **Explore data**, **Knowledge graph** and public paper
+  search work without an OpenAI key.
+- **Advisor** needs a server-side `OPENAI_API_KEY`. Never put it in
+  JavaScript, browser storage or a committed file.
+- `GET /api/health` reports whether the data and advisor are available.
+- For a lighter single-process setup, set `ARM_MCP=0`; the same specialist
+  tools run in process instead of spawning three stdio MCP servers.
+
+### Refresh the data (optional)
+
+Run these commands only when you want to rebuild or update the committed
+artifacts. The running server does not refresh sources on each visit.
+
+```bash
+python etl/build_dataset.py --refresh
+python etl/build_scores.py
+python etl/extract_papers.py
+python etl/build_graph.py
+
+# Optional semantic retrieval; requires an API key and incurs API usage:
+python etl/embed_papers.py
+# Then set ARM_RETRIEVER=embeddings for the Advisor's internal retrieval.
+```
+
+## Deploy on Render
+
+The root [render.yaml](render.yaml) defines a **Free Python Web Service**
+using this branch. It serves the frontend and FastAPI API together. No
+separate frontend deployment, database or persistent disk is needed.
+
+1. Click **Deploy to Render** above, or connect the repository in Render and
+   create a Blueprint from **feat/public-demo-browser-history**.
+2. Supply your `OPENAI_API_KEY` in Render's secret environment settings to
+   enable live chat. This is your key; visitors do not provide one.
+3. Wait for the build and health check to succeed. Open the actual
+   `https://…onrender.com` URL displayed on the service page.
+4. Check the risk profile, data explorer, knowledge graph and one Advisor
+   question. Confirm that `/api/health` reports loaded data.
+5. Add the actual demo URL to [Access the app](#access-the-app) and the
+   GitHub **About → Website** field. Share that URL with visitors.
+
+To deploy manually without a Blueprint, choose **New → Web Service**, connect
+this repository and use:
+
+| Setting | Value |
+|---|---|
+| Branch | `feat/public-demo-browser-history` |
+| Runtime / plan | Python / Free |
+| Root directory | Repository root (leave blank) |
+| Build command | `pip install -r requirements.txt` |
+| Start command | `uvicorn backend.app:app --host 0.0.0.0 --port $PORT --workers 1 --no-proxy-headers` |
+| Health check path | `/api/health` |
+| Environment | `ARM_MCP=0`, `ARM_RETRIEVER=tfidf`; add `OPENAI_API_KEY` for live chat |
+
+For a **data-only demo**, omit `OPENAI_API_KEY` when setting up the manual
+service. Data tabs remain available and the interface explains that live
+chat is disabled. Models remain configurable with `ARM_LEAD_MODEL` and
+`ARM_SUBAGENT_MODEL`.
+
+The Blueprint disables automatic deployment. Deploy new commits manually
+after reviewing them. If this branch is merged or renamed later, update
+the Blueprint's branch, the button's branch URL and the clone instructions.
+
+### Hosting cost and availability
+
+- Render supplies a public HTTPS address and managed certificate on its
+  free tier, subject to its usage limits. No custom domain purchase is needed.
+- Free services sleep after 15 minutes without traffic; the next visitor
+  may wait roughly a minute for startup.
+- Files created at runtime disappear on a restart/redeploy. Conversation
+  history is in each visitor's browser, so it survives server restarts.
+- **Live OpenAI usage is billed separately**, including internal specialist
+  calls. Ten user questions can produce more than ten model API calls.
+  The app's limits reduce usage; they are not a guaranteed dollar budget.
+
+See [Render's free-tier limits](https://render.com/docs/free) and
+[FastAPI deployment guide](https://render.com/docs/deploy-fastapi).
+
+## Browser history and chat allowance
+
+Conversations, the last answer's citations/chart context, pinned brief items
+and their notes are stored under `arm_history_v1` in this website's
+`localStorage`. The UI restores the active conversation after a reload and
+offers deletion, **Clear history**, **Export chats**, and brief export/copy.
+
+- History stays in that browser profile for that site; it does not sync
+  between devices. A shared browser profile shares the saved history.
+- Clearing website data removes history. Private browsing normally removes
+  it when the private session ends.
+- Storage keeps at most 20 conversations, 100 messages per conversation,
+  200 brief items overall and approximately two million JSON characters.
+  When storage fills, older content is trimmed before the current chat.
+  Export anything you want to keep.
+- If browser storage is unavailable, the app works in memory for the
+  current page and displays a notice.
+- Previous messages are still sent to the backend and AI provider as
+  bounded context when you ask a follow-up. Browser storage does not mean
+  local AI inference.
+
+There are no public `/api/conversations` or `/api/brief` endpoints on this
+branch. Chat no longer accepts `persist` or `conversation_id`; callers
+cannot opt back into shared server storage. The legacy local SQLite file
+is not imported or served by the new UI.
+
+The backend allows **10 admitted Advisor messages per network IP within the
+preceding 60 minutes**. A follow-up counts as another question. An admitted
+request still counts if the AI later fails or times out; invalid requests
+and requests rejected because the service is busy do not count. Charts,
+rankings, the graph and offline paper search do not consume the allowance.
+
+When the allowance is exhausted, `POST /api/chat` returns **429** with
+`Retry-After`; the UI shows a countdown. `GET /api/chat/usage` reports the
+current network's allowance without consuming it. Quotas are enforced
+on the server, so clearing browser history does not reset them.
+
+| Environment setting | Default | Purpose |
+|---|---:|---|
+| `ARM_CHAT_RATE_LIMIT` | 10 | Admitted questions per IP per window |
+| `ARM_CHAT_WINDOW_SECONDS` | 3600 | Exact rolling-window length |
+| `ARM_CHAT_MAX_CONCURRENT` | 2 | Maximum active questions across this process |
+| `ARM_CHAT_TIMEOUT_SECONDS` | 120 | Overall deadline for an admitted question |
+| `ARM_CHAT_MAX_OUTPUT_TOKENS` | 1200 | Output token limit on each model call |
+| `ARM_CHAT_MAX_MODEL_CALLS` | 12 | Total lead + specialist model calls per question |
+| `ARM_CHAT_MAX_TOOL_CALLS` | 24 | Total tool invocations per question |
+
+Questions are limited to 2,000 characters. Each request may carry at most
+21 user/assistant messages and 20,000 characters of context; the frontend
+sends only the most recent context that fits. The server rejects oversized
+bodies before parsing them and does not accept browser-supplied system prompts.
+Public paper search always uses the local TF-IDF index, even if the
+Advisor uses optional embeddings.
+
+**Anonymous-demo limitations:** people on the same office/home network may
+share an allowance; changing IPs can obtain another allowance. Counts are
+held in process memory and reset on restart/sleep/redeploy. Keep **one worker
+and one service instance**, as configured in the Blueprint. Strict quotas
+across restarts or multiple instances require a persistent shared usage
+store; per-account quotas additionally require sign-in.
+
+Render sets `RENDER=true` itself. Only in that environment does the app
+trust its edge-owned `True-Client-IP` / `CF-Connecting-IP` headers; missing
+or invalid headers disable chat rather than allowing an unidentifiable
+request through. Caller-supplied `X-Forwarded-For` is not used. Do not set
+`RENDER=true` locally or expose this configuration through a direct socket.
+For other hosting providers, configure client-IP trust explicitly before
+using this demo's network-based quota.
+
+## Checks
+
+From the repository root:
+
+```bash
+python -m pip install -r requirements-dev.txt
+ARM_MCP=0 python -m pytest -q
+node --test tests/browser_history.test.cjs
+```
+
+The tests use simulated model replies and do not spend API credits. They
+cover rolling-window boundaries, simultaneous admissions, request limits,
+failure/timeout cleanup, removal of shared persistence endpoints, browser
+history isolation/restoration, brief export and storage failures.
 
 ## Data pipeline
 
@@ -117,12 +292,14 @@ backend/
   tools.py         shared tool surface (data.* / papers.* / graph.*)
   mcp_client.py    task-per-server stdio session pool
   orchestrator.py  lead agent + policy-advisor / data-analyst subagents
-  store_db.py      SQLite: conversations, messages, brief items
+  chat_limits.py   in-memory rolling-window quota + concurrency reservations
+  store_db.py      legacy local SQLite helpers (not used or exposed by app.py)
   i18n.py          per-language answer directive (EN / FR / AR)
   app.py           FastAPI: REST endpoints + serves the SPA
 
 mcp_servers/       three standalone stdio MCP servers
-frontend/          single-page app, no build step; custom RTL-aware CSS,
+frontend/          single-page app, no build step; history.js stores chats/briefs
+                   in the browser; custom RTL-aware CSS,
                    d3-force graph, Chart.js, trilingual UI (static/i18n.js)
 ```
 

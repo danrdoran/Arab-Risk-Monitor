@@ -12,8 +12,27 @@ const state = {
   pinRefs: [],
   pinned: new Set(),
   brief: [],
+  busy: false,
+  chatEnabled: null,
+  storageStatus: "",
+  quota: { limit: 10, remaining: null, blockedUntil: 0, busyUntil: 0, refreshing: false, nextRefresh: 0 },
+  requestLimits: { max_question_chars: 2000, max_history_messages: 21, max_history_chars: 20000 },
   booted: { explore: false, methodology: false, history: false },
 };
+
+const browserHistory = new ARMHistory.BrowserHistory(undefined, (reason) => {
+  state.storageStatus = reason;
+  renderStorageStatus();
+});
+
+function formatted(key, values) {
+  return String(t(key)).replace(/\{(\w+)\}/g, (_, name) => values[name] ?? "");
+}
+
+function renderStorageStatus() {
+  const el = document.getElementById("history-storage-note");
+  if (el) el.textContent = t(state.storageStatus ? "history." + state.storageStatus : "history.local");
+}
 
 const PATHWAY_COLOR = { Conflict: "#b45309", Climate: "#0e7490", Development: "#15803d", Context: "#64748b" };
 
@@ -53,6 +72,9 @@ document.addEventListener("langchange", () => {
   if (GRAPH.loaded) { renderLegend(); if (!GRAPH.selected) window.clearGraphSelection(); }
   if (RISK.loaded) renderRisk();
   loadBrief().then(renderRail);
+  renderStorageStatus();
+  renderUsage();
+  if (state.chatEnabled !== null) checkHealth();
 });
 
 /* ---------------------------------------------------------------- health */
@@ -61,6 +83,7 @@ async function checkHealth() {
   const text = document.getElementById("health-text");
   try {
     const h = await (await fetch("/api/health")).json();
+    state.chatEnabled = h.chat_configured;
     if (!h.data_loaded || !h.papers_loaded || !h.graph_loaded || !h.scores_loaded) {
       dot.className = "dot warn"; text.textContent = t("health.partial");
     } else if (!h.chat_configured) {
@@ -72,6 +95,7 @@ async function checkHealth() {
   } catch {
     dot.className = "dot err"; text.textContent = t("health.offline");
   }
+  renderUsage();
 }
 
 /* ---------------------------------------------------------------- advisor */
@@ -113,31 +137,46 @@ function submit() {
 }
 
 async function sendChat(text) {
+  if (state.busy || state.chatEnabled === false || state.quota.blockedUntil > Date.now() || state.quota.busyUntil > Date.now()) return;
+  text = text.trim();
+  if (!text) return;
+  if (Array.from(text).length > state.requestLimits.max_question_chars) {
+    addMessage("assistant", formatted("advisor.too_long", { limit: state.requestLimits.max_question_chars }));
+    return;
+  }
+  state.busy = true;
   input.value = ""; input.style.height = "auto";
   addMessage("user", text);
-  state.messages.push({ role: "user", content: text });
   addTyping();
-  document.getElementById("chat-send").disabled = true;
+  renderUsage();
+  let succeeded = false;
   try {
     const res = await fetch("/api/chat", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ messages: state.messages, lang: LANG, conversation_id: state.conversationId, persist: true }),
+      body: JSON.stringify({ messages: requestContext(text), lang: LANG }),
     });
+    readQuotaHeaders(res);
     removeTyping();
     if (!res.ok) {
       const err = await res.json().catch(() => ({}));
-      addMessage("assistant", "⚠️ " + (err.detail || t("advisor.error")));
+      const retryAfter = Number(res.headers.get("Retry-After")) || 0;
+      if (res.status === 429) {
+        state.quota.blockedUntil = Date.now() + Math.max(1, retryAfter) * 1000;
+        addMessage("assistant", "⚠️ " + formatted("advisor.rate_wait", { seconds: Math.max(1, retryAfter) }));
+      } else {
+        if (res.status === 503 && retryAfter) state.quota.busyUntil = Date.now() + retryAfter * 1000;
+        addMessage("assistant", "⚠️ " + (typeof err.detail === "string" ? err.detail : t("advisor.error")));
+      }
       return;
     }
     const data = await res.json();
+    state.messages.push({ role: "user", content: text });
     state.messages.push({ role: "assistant", content: data.reply });
     addMessage("assistant", data.reply, { markdown: true });
     state.lastPayload = data;
-    if (data.conversation_id && data.conversation_id !== state.conversationId) {
-      state.conversationId = data.conversation_id;
-      loadHistory();
-    }
+    saveConversation();
+    succeeded = true;
     state.railMode = "sources";
     syncRailTabs();
     renderRail();
@@ -145,8 +184,62 @@ async function sendChat(text) {
     removeTyping();
     addMessage("assistant", "⚠️ " + t("advisor.offline"));
   } finally {
-    document.getElementById("chat-send").disabled = false;
+    removeTyping();
+    state.busy = false;
+    if (!succeeded) input.value = text;
+    renderUsage();
   }
+}
+
+function requestContext(text) {
+  const messages = [...state.messages, { role: "user", content: text }];
+  const size = () => messages.reduce((n, m) => n + Array.from(m.content).length, 0);
+  while (messages.length > state.requestLimits.max_history_messages || size() > state.requestLimits.max_history_chars) messages.shift();
+  while (messages[0]?.role === "assistant") messages.shift();
+  return messages;
+}
+
+function readQuotaHeaders(res) {
+  if (!res.headers.has("X-RateLimit-Remaining")) return;
+  state.quota.limit = Number(res.headers.get("X-RateLimit-Limit"));
+  state.quota.remaining = Number(res.headers.get("X-RateLimit-Remaining"));
+  const seconds = Number(res.headers.get("X-RateLimit-Reset-After")) || 0;
+  state.quota.blockedUntil = state.quota.remaining === 0 ? Date.now() + seconds * 1000 : 0;
+}
+
+async function refreshUsage() {
+  if (state.quota.refreshing) return;
+  state.quota.refreshing = true;
+  try {
+    const res = await fetch("/api/chat/usage", { cache: "no-store" });
+    if (!res.ok) return;
+    const usage = await res.json();
+    Object.assign(state.requestLimits, usage);
+    input.maxLength = usage.max_question_chars;
+    readQuotaHeaders(res);
+  } catch { /* The backend still enforces the allowance if status is unavailable. */ }
+  finally {
+    state.quota.refreshing = false;
+    state.quota.nextRefresh = Date.now() + 5000;
+    renderUsage();
+  }
+}
+
+function renderUsage() {
+  const el = document.getElementById("chat-usage");
+  if (!el) return;
+  const wait = Math.ceil((state.quota.blockedUntil - Date.now()) / 1000);
+  if (state.chatEnabled === false) el.textContent = t("advisor.unavailable");
+  else if (wait > 0) el.textContent = formatted("advisor.rate_wait", { seconds: wait });
+  else el.textContent = state.quota.remaining == null
+    ? formatted("advisor.allowance", { limit: state.quota.limit })
+    : formatted("advisor.remaining", { remaining: state.quota.remaining, limit: state.quota.limit });
+  const disabled = state.busy || state.chatEnabled === false || wait > 0 || state.quota.busyUntil > Date.now();
+  document.getElementById("chat-send").disabled = disabled;
+  input.disabled = state.busy;
+  document.querySelectorAll("#chips button").forEach((b) => { b.disabled = disabled; });
+  document.querySelectorAll("#new-conv, #history-clear, #history-export, #history-list button").forEach((b) => { b.disabled = state.busy; });
+  if (state.quota.remaining === 0 && wait <= 0 && !state.quota.refreshing && Date.now() >= state.quota.nextRefresh) refreshUsage();
 }
 
 /* ---------------------------------------------------------------- history */
@@ -154,17 +247,52 @@ document.getElementById("history-toggle").addEventListener("click", () =>
   document.getElementById("history").classList.toggle("collapsed")
 );
 document.getElementById("new-conv").addEventListener("click", () => {
+  if (state.busy) return;
+  browserHistory.setActive(null);
+  resetConversation();
+});
+
+function resetConversation() {
   state.conversationId = null;
   state.messages = [];
   state.lastPayload = null;
+  state.pinRefs = [];
   renderGreeting();
   loadBrief().then(renderRail);
   document.querySelectorAll(".conv").forEach((c) => c.classList.remove("active"));
+}
+
+function saveConversation() {
+  state.conversationId = browserHistory.saveConversation({
+    id: state.conversationId, lang: LANG, messages: state.messages, payload: state.lastPayload,
+  });
+  state.messages = browserHistory.get(state.conversationId).messages;
+  loadHistory();
+}
+
+document.getElementById("history-clear").addEventListener("click", () => {
+  if (state.busy || !window.confirm(t("history.confirm_clear"))) return;
+  browserHistory.clear();
+  resetConversation();
+  loadHistory();
 });
+document.getElementById("history-export").addEventListener("click", () => {
+  downloadMarkdown(browserHistory.exportConversations(), "arm-conversations.md");
+});
+
+function downloadMarkdown(text, filename) {
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([text], { type: "text/markdown" }));
+  a.download = filename;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(a.href), 1000);
+}
 
 async function loadHistory() {
   const list = document.getElementById("history-list");
-  const convs = await fetch("/api/conversations").then((r) => r.json()).catch(() => []);
+  const convs = browserHistory.list();
   if (!convs.length) {
     list.innerHTML = `<p class="rail-empty" style="padding:10px">${escapeHtml(t("history.empty"))}</p>`;
     return;
@@ -185,7 +313,8 @@ async function loadHistory() {
   );
   list.querySelectorAll("[data-del]").forEach((b) =>
     b.addEventListener("click", async () => {
-      await fetch("/api/conversations/" + b.dataset.del, { method: "DELETE" });
+      if (state.busy) return;
+      browserHistory.deleteConversation(b.dataset.del);
       if (b.dataset.del === state.conversationId) document.getElementById("new-conv").click();
       loadHistory();
     })
@@ -193,17 +322,18 @@ async function loadHistory() {
 }
 
 async function openConversation(cid) {
-  const conv = await fetch("/api/conversations/" + cid).then((r) => r.json()).catch(() => null);
+  if (state.busy) return;
+  const conv = browserHistory.get(cid);
   if (!conv) return;
+  browserHistory.setActive(cid);
   state.conversationId = cid;
   state.messages = conv.messages.map((m) => ({ role: m.role, content: m.content }));
   messagesEl.innerHTML = "";
-  let lastPayload = null;
+  if (!conv.messages.length) renderGreeting();
   conv.messages.forEach((m) => {
     addMessage(m.role === "user" ? "user" : "assistant", m.content, { markdown: m.role !== "user" });
-    if (m.payload) lastPayload = m.payload;
   });
-  state.lastPayload = lastPayload;
+  state.lastPayload = conv.payload;
   state.railMode = "sources";
   syncRailTabs();
   await loadBrief();
@@ -321,10 +451,9 @@ function wireRail(el) {
       const { kind, ref } = state.pinRefs[+b.dataset.pin];
       const key = pinKey(kind, ref);
       if (state.pinned.has(key)) return;
-      await fetch("/api/brief", {
-        method: "POST", headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ kind, ref, conversation_id: state.conversationId }),
-      });
+      if (state.busy) return;
+      if (!state.conversationId) saveConversation();
+      browserHistory.addBrief(kind, ref, state.conversationId);
       state.pinned.add(key);
       b.classList.add("done");
       loadBrief();
@@ -381,8 +510,7 @@ function drawRailChart(rows) {
 
 /* ---------------------------------------------------------------- brief */
 async function loadBrief() {
-  const q = state.conversationId ? "?conversation_id=" + state.conversationId : "";
-  state.brief = await fetch("/api/brief" + q).then((r) => r.json()).catch(() => []);
+  state.brief = browserHistory.listBrief(state.conversationId);
   state.pinned = new Set(state.brief.map((it) => pinKey(it.kind, it.ref)));
   const countBtn = railTabs.querySelector('[data-mode="brief"]');
   countBtn.textContent = t("advisor.rail.brief") + (state.brief.length ? ` (${state.brief.length})` : "");
@@ -409,20 +537,14 @@ function renderBrief(el) {
   wireBriefActions(el);
   el.querySelectorAll("[data-brief-del]").forEach((b) =>
     b.addEventListener("click", async () => {
-      await fetch("/api/brief/" + b.dataset.briefDel, { method: "DELETE" });
+      browserHistory.deleteBrief(b.dataset.briefDel);
       loadBrief().then(() => renderBrief(el));
     })
   );
   el.querySelectorAll("[data-brief-note]").forEach((ta) => {
-    let tmo;
+    ta.maxLength = 2000;
     ta.addEventListener("input", () => {
-      clearTimeout(tmo);
-      tmo = setTimeout(() => {
-        fetch("/api/brief/" + ta.dataset.briefNote, {
-          method: "PATCH", headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ note: ta.value }),
-        });
-      }, 500);
+      browserHistory.updateBrief(ta.dataset.briefNote, ta.value);
     });
   });
 }
@@ -442,20 +564,16 @@ function briefItem(it) {
 }
 
 function wireBriefActions(el) {
-  const q = state.conversationId ? "?conversation_id=" + state.conversationId : "";
   el.querySelector("#brief-export")?.addEventListener("click", async () => {
-    const md = await fetch("/api/brief/export" + q).then((r) => r.text());
-    const blob = new Blob([md], { type: "text/markdown" });
-    const a = document.createElement("a");
-    a.href = URL.createObjectURL(blob);
-    a.download = "conflict-prevention-brief.md";
-    a.click();
-    URL.revokeObjectURL(a.href);
+    downloadMarkdown(browserHistory.exportBrief(state.conversationId), "conflict-prevention-brief.md");
   });
   el.querySelector("#brief-copy")?.addEventListener("click", async (e) => {
-    const md = await fetch("/api/brief/export" + q).then((r) => r.text());
-    await navigator.clipboard.writeText(md);
-    e.target.textContent = t("brief.copied");
+    try {
+      await navigator.clipboard.writeText(browserHistory.exportBrief(state.conversationId));
+      e.target.textContent = t("brief.copied");
+    } catch {
+      e.target.textContent = t("brief.copy_failed");
+    }
     setTimeout(() => (e.target.textContent = t("brief.copy")), 1500);
   });
 }
@@ -564,3 +682,16 @@ renderGreeting();
 checkHealth();
 loadHistory();
 loadBrief();
+renderStorageStatus();
+refreshUsage();
+if (browserHistory.activeId()) openConversation(browserHistory.activeId());
+setInterval(renderUsage, 1000);
+document.addEventListener("visibilitychange", () => { if (!document.hidden) refreshUsage(); });
+window.addEventListener("storage", (event) => {
+  if (event.key !== ARMHistory.STORAGE_KEY && event.key !== null) return;
+  browserHistory.reload();
+  loadHistory();
+  if (state.busy) return;
+  if (state.conversationId && !browserHistory.get(state.conversationId)) resetConversation();
+  else loadBrief().then(renderRail);
+});

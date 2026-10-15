@@ -310,7 +310,55 @@ const I18N = {
   },
 };
 
-let LANG = localStorage.getItem("arm_lang") || "en";
+Object.assign(I18N.en, {
+  "history.local": "Saved in this browser only. No device sync.",
+  "history.export": "Export chats",
+  "history.clear": "Clear history",
+  "history.confirm_clear": "Delete all conversations and pinned briefs saved in this browser?",
+  "history.unavailable": "Browser storage is unavailable. Chats will last only while this page stays open.",
+  "history.trimmed": "Storage is full. Older saved content was removed to keep the current conversation.",
+  "advisor.allowance": "Up to {limit} questions per hour per network.",
+  "advisor.remaining": "{remaining} of {limit} questions remaining in the rolling hourly allowance for this network.",
+  "advisor.rate_wait": "This network has reached its chat allowance. Try again in {seconds}s.",
+  "advisor.too_long": "Please keep your question within {limit} characters.",
+  "advisor.unavailable": "Live chat is not enabled. You can still explore the data, risk profiles and knowledge graph.",
+  "brief.copy_failed": "Copy failed — use Export",
+  "health.nochat": "live advisor unavailable",
+});
+Object.assign(I18N.fr, {
+  "history.local": "Enregistré uniquement dans ce navigateur, sans synchronisation.",
+  "history.export": "Exporter",
+  "history.clear": "Tout effacer",
+  "history.confirm_clear": "Supprimer les conversations et les notes épinglées enregistrées dans ce navigateur ?",
+  "history.unavailable": "Le stockage du navigateur est indisponible. Les conversations seront perdues à la fermeture de cette page.",
+  "history.trimmed": "Le stockage est plein. Du contenu ancien a été supprimé pour conserver la conversation actuelle.",
+  "advisor.allowance": "Jusqu’à {limit} questions par heure et par réseau.",
+  "advisor.remaining": "{remaining} questions sur {limit} restantes pour ce réseau sur une heure glissante.",
+  "advisor.rate_wait": "Ce réseau a atteint sa limite. Réessayez dans {seconds}s.",
+  "advisor.too_long": "Veuillez limiter votre question à {limit} caractères.",
+  "advisor.unavailable": "Le conseiller est indisponible. Vous pouvez explorer les données, les profils de risque et le graphe.",
+  "brief.copy_failed": "Échec de la copie — utilisez Exporter",
+  "health.nochat": "conseiller indisponible",
+});
+Object.assign(I18N.ar, {
+  "history.local": "محفوظ في هذا المتصفح فقط، دون مزامنة بين الأجهزة.",
+  "history.export": "تصدير المحادثات",
+  "history.clear": "مسح السجل",
+  "history.confirm_clear": "هل تريد حذف المحادثات والملاحظات المثبتة المحفوظة في هذا المتصفح؟",
+  "history.unavailable": "تخزين المتصفح غير متاح. ستُفقد المحادثات عند إغلاق هذه الصفحة.",
+  "history.trimmed": "التخزين ممتلئ. حُذف محتوى قديم للاحتفاظ بالمحادثة الحالية.",
+  "advisor.allowance": "حتى {limit} أسئلة في الساعة لكل شبكة.",
+  "advisor.remaining": "متبقٍ {remaining} من أصل {limit} أسئلة لهذه الشبكة خلال الساعة الأخيرة.",
+  "advisor.rate_wait": "بلغت هذه الشبكة الحد المسموح. حاول مجدداً بعد {seconds} ثانية.",
+  "advisor.too_long": "يرجى ألا يتجاوز سؤالك {limit} حرفاً.",
+  "advisor.unavailable": "المستشار غير متاح حالياً. يمكنك استكشاف البيانات وملفات المخاطر وشبكة المعرفة.",
+  "brief.copy_failed": "تعذّر النسخ — استخدم التصدير",
+  "health.nochat": "المستشار غير متاح",
+});
+
+let LANG = "en";
+try { LANG = localStorage.getItem("arm_lang") || "en"; } catch { /* storage may be disabled */ }
+if (!I18N[LANG]) LANG = "en";
 
 function t(key) {
   return (I18N[LANG] && I18N[LANG][key] != null ? I18N[LANG][key] : I18N.en[key]) ?? key;
@@ -318,7 +366,7 @@ function t(key) {
 
 function applyI18n(lang) {
   LANG = I18N[lang] ? lang : "en";
-  localStorage.setItem("arm_lang", LANG);
+  try { localStorage.setItem("arm_lang", LANG); } catch { /* language still works for this page */ }
   const dir = I18N[LANG].dir;
   document.documentElement.lang = LANG;
   document.documentElement.dir = dir;

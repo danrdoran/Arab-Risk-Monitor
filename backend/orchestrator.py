@@ -25,6 +25,7 @@ from __future__ import annotations
 
 import json
 import os
+from dataclasses import dataclass
 
 from openai import AsyncOpenAI
 
@@ -38,6 +39,27 @@ SUBAGENT_MODEL = os.environ.get("ARM_SUBAGENT_MODEL", "gpt-4o-mini")
 MAX_LEAD_STEPS = 5
 MAX_SUBAGENT_STEPS = 5
 MAX_ROWS_TO_MODEL = 120
+
+
+class ChatBudgetExceeded(RuntimeError):
+    """The bounded public-demo allowance for a single question was exhausted."""
+
+
+@dataclass
+class _CallBudget:
+    model_calls: int
+    tool_calls: int
+    output_tokens: int
+
+    def take_model_call(self) -> None:
+        if self.model_calls <= 0:
+            raise ChatBudgetExceeded("model call allowance exhausted")
+        self.model_calls -= 1
+
+    def take_tool_call(self) -> None:
+        if self.tool_calls <= 0:
+            raise ChatBudgetExceeded("tool call allowance exhausted")
+        self.tool_calls -= 1
 
 
 # --------------------------------------------------------------------- prompts
@@ -124,9 +146,9 @@ def _client() -> AsyncOpenAI:
     if not key:
         raise RuntimeError(
             "OPENAI_API_KEY is not set. Add it to your .env at the repo root "
-            "(the Advisor and Explore-data tabs still work without it)."
+            "(Risk profile, Explore data and Knowledge graph still work without it)."
         )
-    return AsyncOpenAI(api_key=key)
+    return AsyncOpenAI(api_key=key, timeout=45, max_retries=0)
 
 
 def _fn_name(tool_name: str) -> str:
@@ -163,8 +185,9 @@ async def _run_subagent(
     question: str,
     namespaces: list[str],
     pool,
+    client: AsyncOpenAI,
+    budget: _CallBudget,
 ) -> dict:
-    client = _client()
     tools = _openai_tools(namespaces)
     messages = [
         {"role": "system", "content": system_prompt},
@@ -179,12 +202,14 @@ async def _run_subagent(
     tool_log: list[str] = []
 
     for _ in range(MAX_SUBAGENT_STEPS):
+        budget.take_model_call()
         resp = await client.chat.completions.create(
             model=SUBAGENT_MODEL,
             messages=messages,
             tools=tools,
             tool_choice="auto",
             temperature=0.1,
+            max_completion_tokens=budget.output_tokens,
         )
         msg = resp.choices[0].message
         if not msg.tool_calls:
@@ -207,6 +232,7 @@ async def _run_subagent(
             }
         )
         for tc in msg.tool_calls:
+            budget.take_tool_call()
             name = _tool_name(tc.function.name)
             try:
                 args = json.loads(tc.function.arguments or "{}")
@@ -236,8 +262,16 @@ async def _run_subagent(
 
 
 # --------------------------------------------------------------------- lead loop
-async def run(messages: list[dict], lang: str = "en") -> dict:
-    client = _client()
+async def run(
+    messages: list[dict], lang: str = "en", *,
+    max_output_tokens: int = 1_200, max_model_calls: int = 12, max_tool_calls: int = 24,
+) -> dict:
+    budget = _CallBudget(max_model_calls, max_tool_calls, max_output_tokens)
+    async with _client() as client:
+        return await _run(messages, lang, client=client, budget=budget)
+
+
+async def _run(messages: list[dict], lang: str, *, client: AsyncOpenAI, budget: _CallBudget) -> dict:
     pool = _ambient_pool()
 
     lead_tools = [
@@ -284,12 +318,14 @@ async def run(messages: list[dict], lang: str = "en") -> dict:
 
     final_reply = ""
     for _ in range(MAX_LEAD_STEPS):
+        budget.take_model_call()
         resp = await client.chat.completions.create(
             model=LEAD_MODEL,
             messages=convo,
             tools=lead_tools,
             tool_choice="auto",
             temperature=0.25,
+            max_completion_tokens=budget.output_tokens,
         )
         msg = resp.choices[0].message
         if not msg.tool_calls:
@@ -304,6 +340,7 @@ async def run(messages: list[dict], lang: str = "en") -> dict:
             }
         )
         for tc in msg.tool_calls:
+            budget.take_tool_call()
             try:
                 args = json.loads(tc.function.arguments or "{}")
             except json.JSONDecodeError:
@@ -317,6 +354,8 @@ async def run(messages: list[dict], lang: str = "en") -> dict:
                     question=question,
                     namespaces=["papers", "graph"],
                     pool=pool,
+                    client=client,
+                    budget=budget,
                 )
             elif tc.function.name == "consult_data_analyst":
                 sub = await _run_subagent(
@@ -325,6 +364,8 @@ async def run(messages: list[dict], lang: str = "en") -> dict:
                     question=question,
                     namespaces=["data"],
                     pool=pool,
+                    client=client,
+                    budget=budget,
                 )
             else:
                 sub = {"role": "unknown", "brief": f"no such specialist: {tc.function.name}"}
