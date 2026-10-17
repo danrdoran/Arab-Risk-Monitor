@@ -1,0 +1,27 @@
+x-arm: &arm
+  image: arab-risk-monitor:local
+  build: .
+  init: true
+  env_file:
+    - path: .env
+      required: false
+  volumes:
+    - arm_data:/app/data
+
+services:
+  app:
+    <<: *arm
+    command: ["app"]
+    ports:
+      - "127.0.0.1:8420:8420"
+    restart: unless-stopped
+
+  refresh:
+    <<: *arm
+    command: ["refresh"]
+    profiles: ["maintenance"]
+    healthcheck:
+      disable: true
+
+volumes:
+  arm_data:

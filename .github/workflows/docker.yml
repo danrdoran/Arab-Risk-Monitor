@@ -1,0 +1,66 @@
+name: Docker build and smoke test
+
+on:
+  push:
+    paths:
+      - "Dockerfile"
+      - ".dockerignore"
+      - "compose.yaml"
+      - "docker/**"
+      - "backend/**"
+      - "etl/**"
+      - "mcp_servers/**"
+      - "frontend/**"
+      - "data/**"
+      - "papers/**"
+      - "requirements.txt"
+      - ".github/workflows/docker.yml"
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  docker:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7.0.1
+      - name: Build the shared app and refresh image
+        run: docker compose build app
+      - name: Check both entrypoint modes are available
+        run: docker compose run --rm refresh --help
+      - name: Start from the bundled data snapshot
+        run: docker compose up -d --wait app
+      - name: Check data, scores, papers, graph, and frontend without an API key
+        run: |
+          python - <<'PY'
+          import json
+          from urllib.request import urlopen
+
+          base = "http://127.0.0.1:8420"
+          with urlopen(base + "/api/health") as response:
+              health = json.load(response)
+          assert all(health[key] for key in (
+              "data_loaded", "scores_loaded", "papers_loaded", "graph_loaded",
+          )), health
+          assert not health["chat_configured"], health
+          with urlopen(base + "/api/countries") as response:
+              assert len(json.load(response)) == 22
+          for path in ("/", "/api/scores?countries=LBN&latest_only=true", "/api/papers/search?q=prevention", "/api/graph"):
+              with urlopen(base + path) as response:
+                  assert response.status == 200, path
+          PY
+      - name: Check shared data survives container replacement
+        run: |
+          docker compose run --rm --entrypoint python refresh -c 'from pathlib import Path; Path("/app/data/.persistence-check").write_text("retained")'
+          docker compose down
+          docker compose up -d --wait app
+          docker compose exec -T app python -c 'from pathlib import Path; assert Path("/app/data/.persistence-check").read_text() == "retained"'
+      - name: Container logs
+        if: always()
+        run: docker compose logs --no-color app
+      - name: Clean up CI containers and data
+        if: always()
+        run: docker compose down --volumes

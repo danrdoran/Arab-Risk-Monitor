@@ -94,6 +94,40 @@ Open **http://localhost:8420**.
 - **Advisor** needs `OPENAI_API_KEY` in `.env`. Models and the retriever are
   configurable (`ARM_LEAD_MODEL`, `ARM_SUBAGENT_MODEL`, `ARM_RETRIEVER`).
 
+## Docker quick start
+
+Requires Docker with Compose v2.24+. From this checkout, build one image for
+both operating modes: **app** serves the website; **refresh** collects data
+and rebuilds indicators and scores, then exits.
+
+```bash
+docker compose build
+docker compose run --rm refresh   # optional: fetch data before first use
+docker compose up -d app
+```
+
+Open **http://localhost:8420**. The image includes a prepared data snapshot,
+paper corpus and knowledge graph, so you can skip `refresh` and start browsing
+immediately. For AI chat, copy `.env.example` to `.env`, add `OPENAI_API_KEY`,
+then run `docker compose up -d --force-recreate app`. Compose passes `.env`
+to the containers; credentials are excluded from the image. Optional source
+settings such as `EMDAT_API_TOKEN` also go in `.env`.
+
+Both modes share the `arm_data` Docker volume. To refresh an existing copy:
+
+```bash
+docker compose stop app
+docker compose run --rm refresh
+docker compose up -d app
+```
+
+Start the app after the refresh succeeds; restarting reloads its in-memory
+data. Review fetcher output for skipped or unavailable sources. Refresh uses
+the fetchers' configured date ranges and dataset versions; it does not check
+for changes incrementally or run automatically. The paper corpus and graph
+remain the bundled versions. `docker compose down` keeps saved data; adding
+`--volumes` deletes it. Local refreshes do not update the public Render demo.
+
 ## Data pipeline
 
 Each fetcher writes a `data/processed/parts/<source>.csv`; `build_dataset.py`
